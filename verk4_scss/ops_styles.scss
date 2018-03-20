@@ -1,0 +1,12 @@
+$myColor: purple;
+$basepadding: 10px;
+$basethickness: 5px;
+
+.mypara {
+    color: $myColor;
+    border: $basethickness solid $myColor;
+    padding: $basepadding;
+}
+
+$gender: boy;
+$myColor: if($gender=="boy", blue, red);
